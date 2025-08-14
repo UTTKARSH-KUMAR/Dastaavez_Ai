@@ -20,5 +20,5 @@ module.exports = (mongoose) => {
     return object;
   });
 
-  return mongoose.model("bids", schema);
+  return mongoose.model("rooms", schema);
 };
